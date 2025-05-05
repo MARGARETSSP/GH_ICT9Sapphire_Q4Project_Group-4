@@ -1,0 +1,43 @@
+body {
+	background: ;
+	text-align: center;
+	color: ;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+	display: block;
+	float: left;
+}
+
+li a:hover {
+	background-color: ;
+}
+
+h1 {
+	margin: 35px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 15%;
+	height: 250px;
+	margin: 10px;
+}
+
+.card-body {
+	text-align: center;
+}
+
+footer {
+	color: grey;
+}
