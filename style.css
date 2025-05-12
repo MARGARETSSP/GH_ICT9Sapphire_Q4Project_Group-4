@@ -4,6 +4,10 @@ body {
 	color: ;
 }
 
+h1 {
+	background-color: darkorange;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -14,7 +18,11 @@ li a {
 }
 
 li a:hover {
-	background-color: ;
+	background-color: darkorange;
+}
+
+li a:link, a:active {
+	color: white;
 }
 
 h1 {
@@ -32,6 +40,8 @@ h1 {
 	width: 15%;
 	height: 250px;
 	margin: 10px;
+	border-color: gold;
+	border-width: 3px;
 }
 
 .card-body {
