@@ -4,8 +4,16 @@ body {
 	color: ;
 }
 
-h1 {
+.hero-image {
 	background-color: darkorange;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero-text {
+	text-align: center;
+	color: white;
 }
 
 ul {
@@ -37,11 +45,16 @@ h1 {
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 15%;
-	height: 250px;
-	margin: 10px;
+	width: 15%;margin: 10px;
 	border-color: gold;
 	border-width: 3px;
+	flex-direction: row;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
 }
 
 .card-body {
