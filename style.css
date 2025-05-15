@@ -2,22 +2,9 @@ body {
 	background: ;
 	text-align: center;
 	color: ;
-}
-
-.hero-image {
-	background-color: darkorange;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.hero-text {
-	text-align: center;
-	color: white;
-}
-
-ul {
-	list-style-type: none;
+	margin: 0;
+	bottom: 0;
+	padding: 0;
 }
 
 li a {
@@ -33,19 +20,43 @@ li a:link, a:active {
 	color: white;
 }
 
-h1 {
-	margin: 35px;
+#p1, #p2, #p3, #p4, li a{
+	color: black;
 }
 
-* {
-  box-sizing: border-box;
+ul {
+	list-style-type: none;
 }
 
+.hero-image {
+	background-color: darkorange;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px;
+	background-image: linear-gradient(crimson,darkorange);
+	margin: 0 auto;
+}
+
+.hero-text {
+	text-align: center;
+	color: white;
+}
+
+#search, #meet {
+	border-radius: 	12px;
+}
+
+#team{
+	padding: 10px;
+}
+		
 .card {
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 15%;margin: 10px;
+	width: 200px;
+	margin: 0 auto;
 	border-color: gold;
 	border-width: 3px;
 	flex-direction: row;
