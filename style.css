@@ -47,18 +47,23 @@ ul {
 	border-radius: 	12px;
 }
 
-#team{
+#team {
 	padding: 10px;
 }
-		
+
+h1 {
+	font-size: 350%;
+}
+
 .card {
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 200px;
+	width: 250px;
 	margin: 0 auto;
 	border-color: gold;
-	border-width: 3px;
+	border-width: 5px;
+	border-radius: 5%;
 	flex-direction: row;
 }
 
