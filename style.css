@@ -1,82 +1,17 @@
 body {
-	background: seashell;
-	text-align: center;
-	color: ;
-	margin: 0;
-	bottom: 0;
-	padding: 0;
+    background-color: rgb(246, 246, 193);
+    color: rgb(0, 0, 0);
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
 }
 
-li a {
-	display: block;
-	float: left;
-}
-
-li a:hover {
-	background-color: darkorange;
-}
-
-#group, li a:link, a:active {
-	color: white;
-}
-
-#p1, #p2, #p3, #p4, li a{
-	color: black;
-}
-
-ul {
-	list-style-type: none;
-}
-
-.hero-image {
-	background-color: darkorange;
-	max-width: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 50px;
-	background-image: linear-gradient(crimson,darkorange);
-	margin: 0 auto;
-}
-
-.hero-text {
-	text-align: center;
-	color: white;
-}
-
-#search, #meet {
-	border-radius: 	12px;
-}
-
-#team {
-	padding: 10px;
-}
-
-h1 {
-	font-size: 350%;
-}
-
-.card {
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 210px;
-	margin: 0 auto;
-	border-color: gold;
-	border-width: 4px;
-	border-radius: 5%;
-	flex-direction: row;
-	box-shadow: -3px 4px 11px 2px rgba(0,0,0,0.15);
-}
-.card img {
-	width: 90%;
-	height: auto;
-	padding: 15px;
-	border-radius: 50%;
-
-}
-
-.card-body {
-	text-align: center;
+.pcontainer {
+    max-width: 1000px;
+    padding: 2%;
+    border-radius: 50px;
+    margin-top: 5%;
+    background-color: white;
 }
 
 footer {
