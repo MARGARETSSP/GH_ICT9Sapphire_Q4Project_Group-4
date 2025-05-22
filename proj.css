@@ -1,0 +1,16 @@
+.no-line{
+	text-decoration: none;
+}
+.Img-size {
+  border: solid 3px;
+  transition: all 0.05s ease;
+}
+
+.Img-size:hover{
+  border: solid 6px;
+}
+.bg{
+  background-image: url("BG-WHITE.JPG");
+  background-size: cover;
+}
+
