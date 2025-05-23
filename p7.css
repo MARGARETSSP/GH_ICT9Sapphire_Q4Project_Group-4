@@ -16,6 +16,7 @@ body{
 li a {
     display: block;
     float: left;
+    color: white;
 }
 
 li a:hover {
