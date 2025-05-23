@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #DA6C6C;
+}
+.card-row {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+li a {
+  display: block;
+  float: left;
+}
+
+li a:hover {
+  background-color: darkorange;
+}
+
+#group, li a:link, a:active {
+  color: white;
+}
+
+#p1, #p2, #p3, #p4, li a{
+  color: black;
+}
+
+.ul-nav {
+  list-style-type: none;
+}
+
+footer {
+  color: grey;
+}
