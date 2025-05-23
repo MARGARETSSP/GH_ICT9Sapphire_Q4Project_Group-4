@@ -18,16 +18,17 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-li a {
+.li-nav a {
   display: block;
+  color: white;
   float: left;
 }
 
-li a:hover {
+.li-nav:hover, a:hover {
   background-color: darkorange;
 }
 
-#group, li a:link, a:active {
+#group, .li-nav a:link, a:active a:defualt{
   color: white;
 }
 

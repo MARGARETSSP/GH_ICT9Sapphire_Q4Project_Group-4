@@ -16,7 +16,7 @@ li a:hover {
 	background-color: darkorange;
 }
 
-#group, li a:link, a:active {
+#group, li a:link, a:active a:default{
 	color: white;
 }
 
